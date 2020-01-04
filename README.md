@@ -11,7 +11,7 @@ This is why it is called "colorselector" rather than "colorpicker".
 
 ## Examples / Demo
 
-http://bootstrap-colorselector.flaute.com/
+https://saeedyp.ir/bootstrap-colorselector-shopfa/
 
 ## Authors
 
