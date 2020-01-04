@@ -3,24 +3,25 @@
   top: 80%;
   left: -7px;
   padding: 4px;
+  padding-bottom: 0;
   min-width: 130px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  max-height: calc(100vh - 100%);
 }
 
 .dropdown-imageselector>.dropdown-menu>li {
   display: block;
   width: 468px;
-  height: 60px;
+  max-width: 100%;
+  height: auto;
   margin-bottom: 4px;
-}
-
-.dropdown-imageselector>.dropdown-menu>li:last-child {
-  margin-bottom: 0;
 }
 
 .dropdown-imageselector>.dropdown-menu>li>.image-btn {
   display: block;
   width: 468px;
-  height: 60px;
+  max-width: 100%;
   background-size: cover;
   margin: 0;
   padding: 0;
@@ -32,9 +33,9 @@
 
 .dropdown-imageselector>.dropdown-menu>li>.image-btn:hover {
   text-decoration: none;
-  -webkit-transform: scale(1.08);
-  -ms-transform: scale(1.08);
-  transform: scale(1.08);
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 .dropdown-imageselector>.dropdown-menu>li>.image-btn.selected:after {
@@ -53,8 +54,9 @@
 .btn-imageselector {
   display: inline-block;
   width: 468px;
-  height: 60px;
-  background-color: #DDD;
+  max-width: 100%;
+  height: auto;
+  background-color: #ddd;
   vertical-align: middle;
   border-radius: 0;
 }
